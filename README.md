@@ -1,7 +1,7 @@
 <h1 align="center">1yoouoo</h1>
 
 <p align="center">
-    <img src="docs/assets/logo.png" alt="Logo" />
+    <img src="./docs/assets/logo.png" alt="Logo" />
     <br>
     <i>Starter Project for <strong>React</strong> using <strong>TypeScript</strong> that allows customization of all components. Dedicated to my projects. Maybe it works for you as well :) <br><strong>npm init 1yoouoo</strong></i>
 </p>
