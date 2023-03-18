@@ -1,23 +1,21 @@
 {
   "name": "copy-right-library",
-  "version": "0.1.0",
-  "private": true,
+  "description": "Very Very Awesome Component",
+  "author": {
+    "name": "blanc",
+    "email": "1yoouoo@gmail.com",
+    "url": "https://github.com/1yoouoo/copyright-react-library"
+  },
+  "version": "0.0.1",
+  "private": false,
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "browser": "./browser/specific/main.js",
   "dependencies": {
-    "@testing-library/jest-dom": "^5.16.5",
-    "@testing-library/react": "^13.4.0",
-    "@testing-library/user-event": "^13.5.0",
-    "@types/jest": "^29.4.0",
-    "@types/lodash": "^4.14.191",
+    "@types/styled-components": "^5.1.26",
     "@types/node": "^18.14.5",
     "@types/react": "^18.0.28",
     "@types/react-dom": "^18.0.11",
-    "@types/styled-components": "^5.1.26",
-    "@typescript-eslint/eslint-plugin": "^5.48.1",
-    "@typescript-eslint/parser": "^5.48.1",
-    "eslint": "^8.31.0",
-    "eslint-config-airbnb-typescript": "^17.0.0",
-    "eslint-config-prettier": "^8.6.0",
-    "eslint-plugin-prettier": "^4.2.1",
     "module-name": "^0.0.1-security",
     "prettier": "^2.8.4",
     "react": "^18.2.0",
@@ -33,7 +31,7 @@
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
-    "tsc-build": "tsc -p tsconfig-esm.json && tsc -p tsconfig-cjs.json"
+    "prepare": "rm -rf dist && mkdir dist && tsc"
   },
   "eslintConfig": {
     "extends": [

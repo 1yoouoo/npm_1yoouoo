@@ -1,6 +1,8 @@
-import { CopyrightProps } from "Copyright.ts";
 import styled from "styled-components";
-
+interface CopyrightProps {
+  name: string;
+  current_year: number;
+}
 const Copyright = ({ name, current_year }: CopyrightProps) => {
   return (
     <Content>
