@@ -1,12 +1,12 @@
 {
-  "name": "copy-right-library",
+  "name": "1yoouoo",
   "description": "Very Very Awesome Component",
   "author": {
     "name": "blanc",
     "email": "1yoouoo@gmail.com",
-    "url": "https://github.com/1yoouoo/copyright-react-library"
+    "url": "https://github.com/1yoouoo"
   },
-  "version": "0.0.1",
+  "version": "0.1.0",
   "private": false,
   "main": "dist/index.js",
   "types": "dist/index.d.ts",

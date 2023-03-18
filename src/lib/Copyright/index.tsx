@@ -1,7 +1,7 @@
 import styled from "styled-components";
 interface CopyrightProps {
   name: string;
-  current_year: number;
+  current_year: string;
 }
 const Copyright = ({ name, current_year }: CopyrightProps) => {
   return (

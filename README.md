@@ -1,46 +1,80 @@
-# Getting Started with Create React App
+<h1 align="center">1yoouoo</h1>
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+<p align="center">
+    <img src="docs/assets/logo.png" alt="Logo" />
+    <br>
+    <i>Starter Project for <strong>React</strong> using <strong>TypeScript</strong> that allows customization of all components. Dedicated to my projects. Maybe it works for you as well :) <br><strong>npm init 1yoouoo</strong></i>
+</p>
+<p align="center">
+  This project was created for the reuse of repeated components in 1yoouoo's toy projects.
+  <b>I don't like to use other people's libraries</b>, so I created my own, with the goal of making it easy to download and adapt to your needs to quickly create projects.<br/>  But if you want to use this library, check below how to use it :)
+</p>
 
-## Available Scripts
+<p align="center">
+  <a href="https://www.npmjs.com/package/create-react-ts-web-starter"><strong>www.npmjs.com/package/1yoouoo</strong></a>
+  <br>
+  <br>
+</p>
 
-In the project directory, you can run:
+<p align="center">
+  <a href="https://github.com/eslint/eslint">
+    <img src="https://img.shields.io/badge/typescript-5.0.2-blue"/>
+  </a>
+  <a href="https://github.com/eslint/eslint">
+    <img src="https://img.shields.io/badge/code%20style-eslint-green"/>
+  </a>
+  <a href="https://github.com/prettier/prettier">
+    <img src="https://img.shields.io/badge/code_style-prettier-ff69b4.svg?style=flat"/>
+  </a>
+  <a href="https://www.npmjs.com/package/1yoouoo">
+    <img alt="npm" src="https://img.shields.io/npm/v/1yoouoo">
+  </a>
+</p>
 
-### `npm start`
+# Getting Started
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+### command installs the 1yoouoo package using npm.
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+```
+npm install 1yoouoo
+```
 
-### `npm test`
+### or
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+### command installs the 1yoouoo package and adds it to the dependencies section in the package.json file. This is used for installing packages required for production.
 
-### `npm run build`
+```
+npm install --save 1yoouoo
+```
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+### or
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+### command installs the 1yoouoo package and adds it to the devDependencies section in the package.json file. This is used for installing packages required for development.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+```
+npm install --save-dev 1yoouoo
+```
 
-### `npm run eject`
+# How to use
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+## Copyright
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+### Usage example :
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+```js
+import "./App.css";
+import { Copyright } from "copy-right-library";
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+function App() {
+  return (
+    <div className="App">
+      <header className="App-header">
+        ...
+        <Copyright name="1yoouoo" current_year="2023" />
+      </header>
+    </div>
+  );
+}
 
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
+export default App;
+```
